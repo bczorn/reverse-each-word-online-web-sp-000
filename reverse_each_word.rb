@@ -1,3 +1,4 @@
 def reverse_each_word(hello)
-  hello.split
+  letters = hello.split()
+  letters.reverse
 end
