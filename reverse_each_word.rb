@@ -1,5 +1,7 @@
 def reverse_each_word(hello)
-  letters = hello.split("")
-  letters.reverse!
+  word = hello.split(" ")
+  word.each do |x|
+    x.reverse!
+  end
   
 end
